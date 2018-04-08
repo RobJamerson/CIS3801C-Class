@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.container {
+	align-content: center;
+	max-width: 800px;
+    margin: auto;
+	background-color: antiquewhite;
+}
+
+sidebar {
+    float: left;
+    max-width: 400px;
+    margin: 15px;
+    padding: 1em;
+}
+
+div.article{
+	width: 350px;
+	border: 10px solid black;
+	padding: 20px;
+	margin: 20px;
+}
+
+/*This is the header*/
+header {
+	height: 200px;
+	min-width: 60%;
+	background-image: url(http://sotd.us/robertjamerson/hcbrewers/images/header1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*This is the footer*/	
+footer {
+    padding: 1em;
+    color: white;
+    background-color: #000000;
+    clear: left;
+    text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 10pt;
+}
+/*Navigation Bar*/
+nav {
+    max-width: 100%;
+	text-align: right;
+	background-color: #000000
+}
+
+nav ul {
+    list-style-type: none;
+	margin: 0;
+    padding: 1em;
+}
+   
+nav ul a {
+	font-size: 14pt;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-decoration: none;
+}
+/*Article section*/
+main {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: lightgrey;
+}
+
+/* mouse hover over link */
+a:hover {
+    color: gold;
+}
+
+/* link selction*/
+a:active {
+    color: darkgoldenrod;
+}
+/*Headline formatting*/
+h1 {
+	font-size: 20pt;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/*Paragraph formatting*/
+p {
+	font-size: 12pt;
+    text-indent: 20px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+/*Calendar*/
+ul {list-style-type: none;}
+body {font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+
+/* Month header */
+.month {
+    padding: 5px 0px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#FFFFFF;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #000000;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #FFFFFF;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:20px;
+    color:#000000;
+}
